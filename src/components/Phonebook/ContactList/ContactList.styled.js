@@ -14,7 +14,10 @@ export const Item = styled.li`
 
   border-bottom: 1px solid ${props => props.theme.colors.gray};
 `;
-
+export const SpanName = styled.span`
+  display: block;
+  width: 150px;
+`;
 export const ButtonDlt = styled.button`
   padding: ${props => props.theme.spasing(2)};
   margin: 0;
