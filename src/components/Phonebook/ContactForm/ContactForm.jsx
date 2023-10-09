@@ -8,7 +8,6 @@ import {
 } from './ContactForm.styled';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-// import { addContact } from 'redux/contactsSlice';
 import { addContact } from 'redux/operations';
 import { useSelector } from 'react-redux';
 import { selectContacts } from 'redux/selectors';

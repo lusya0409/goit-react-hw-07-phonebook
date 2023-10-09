@@ -1,7 +1,6 @@
 import { Item, List, ButtonDlt, SpanName } from './ContactList.styled';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-// import { deleteContact } from 'redux/contactsSlice';
 import { selectFilteredContacts } from 'redux/selectors';
 import { deleteContact } from 'redux/operations';
 
